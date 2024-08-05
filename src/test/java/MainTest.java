@@ -44,7 +44,7 @@ public class MainTest {
     public void testAddItemsWithSameValues() throws NoSuchFieldException {
         Grocery.groceryList.add("tomato");
         Grocery.addItems("tomato");
-        Grocery.addItems("cherry,artichoke");
+        Grocery.addItems("cherry,articho ke");
         Grocery.addItems("cherry,potato");
 
         assertEquals(Grocery.groceryList.size(), 4);
